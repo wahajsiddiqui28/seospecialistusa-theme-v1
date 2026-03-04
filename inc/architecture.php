@@ -25,6 +25,8 @@ function seo_specialist_get_page_blueprint( $slug ) {
         'vermont'      => array( 'hero', 'why-vermont', 'services-grid', 'market-insights', 'local-insights', 'workflow', 'why-choose', 'faq', 'footer-cta' ),
         'wyoming'      => array( 'hero', 'why-choose', 'landscapes', 'services', 'process', 'faq', 'footer-cta' ),
         'iowa'         => array( 'hero', 'why-seo-matters', 'services', 'why-choose', 'industries', 'process', 'cta', 'faq' ),
+        'kansas'       => array( 'hero', 'why-kansas', 'services', 'why-choose', 'industries', 'process', 'timeline', 'contact-cta', 'faq' ),
+        'mississippi'  => array( 'hero', 'why-mississippi', 'services', 'why-choose', 'industries', 'process', 'timeline', 'expectations', 'contact-cta', 'faq' ),
         
         // Service Pages (Simplified Slugs)
         'on-page'      => array( 'hero', 'why-matters', 'results', 'expert-services', 'process', 'why-choose', 'packages', 'faq', 'footer-cta' ),

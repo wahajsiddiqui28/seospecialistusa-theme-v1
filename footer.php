@@ -64,10 +64,29 @@
                 <div class="col-lg-3 footer-col">
                     <h3 class="footer-title">Our Services</h3>
                     <ul class="footer-links-list">
-                        <li><a href="#">SEO Services in USA</a></li>
-                        <li><a href="#">SEO Services in USA</a></li>
-                        <li><a href="#">SEO Services in USA</a></li>
-                        <li><a href="#">SEO Services in USA</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/local-seo/')); ?>">Local SEO Services</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/on-page/')); ?>">On-Page SEO</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/off-page/')); ?>">Off-Page SEO</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/technical-seo/')); ?>">Technical SEO</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/seo-content-creation/')); ?>">SEO Content Creation</a></li>
+                    </ul>
+                </div>
+
+                <!-- Our Locations -->
+                <div class="col-lg-3 footer-col">
+                    <h3 class="footer-title">Our Locations</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="<?php echo esc_url(home_url('/vermont/')); ?>">SEO Services in Vermont</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/wyoming/')); ?>">SEO Services in Wyoming</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/delaware/')); ?>">SEO Services in Delaware</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/rhode-island/')); ?>">SEO Services in Rhode Island</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/montana/')); ?>">SEO Services in Montana</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/new-mexico/')); ?>">SEO Services in New Mexico</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/arkansas/')); ?>">SEO Services in Arkansas</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/utah/')); ?>">SEO Services in Utah</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/iowa/')); ?>">SEO Services in Iowa</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/kansas/')); ?>">SEO Services in Kansas</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/mississippi/')); ?>">SEO Services in Mississippi</a></li>
                     </ul>
                 </div>
             </div>

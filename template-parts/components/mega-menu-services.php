@@ -59,6 +59,10 @@
                         <li><a href="<?php echo esc_url(home_url('/new-mexico/')); ?>"><i class="far fa-dot-circle me-2"></i>New Mexico</a></li>
                         <li><a href="<?php echo esc_url(home_url('/arkansas/')); ?>"><i class="far fa-dot-circle me-2"></i>Arkansas</a></li>
                         <li><a href="<?php echo esc_url(home_url('/utah/')); ?>"><i class="far fa-dot-circle me-2"></i>Utah</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/iowa/')); ?>"><i class="far fa-dot-circle me-2"></i>Iowa</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/kansas/')); ?>"><i class="far fa-dot-circle me-2"></i>Kansas</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/mississippi/')); ?>"><i class="far fa-dot-circle me-2"></i>Mississippi</a></li>
+
                     </ul>
                 </div>
 

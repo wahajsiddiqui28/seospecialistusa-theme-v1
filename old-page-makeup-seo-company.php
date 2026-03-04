@@ -266,7 +266,7 @@ get_header(); ?>
             <div class="col-lg-8">
                 <div class="process-timeline">
                     <div class="process-step">
-                        <h3 class="h5">Month 1: Technical Foundation</h3>
+                        <h3 class="h5 fw-bold">Month 1: Technical Foundation</h3>
                         <p class="text-muted">Site audit for technical issues, fix critical errors affecting indexation, optimize highest-traffic product pages, and implement structured data.</p>
                     </div>
                     <div class="process-step">

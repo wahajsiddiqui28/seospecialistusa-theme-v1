@@ -1,0 +1,371 @@
+/* Specialized Service Pages Styles */
+
+/* 1. AI SEO Agency Styles */
+.slug-ai-seo-agency {
+    --ai-primary: #002868;
+    --ai-accent: #BF0A30;
+    --ai-bg-light: #f8fafc;
+    --ai-text-dark: #0f172a;
+    font-family: 'Inter', sans-serif;
+    color: var(--ai-text-dark);
+}
+
+.slug-ai-seo-agency .ai-hero {
+    background: radial-gradient(circle at 0% 0%, #002868 0%, #00153a 100%) !important;
+    padding: 160px 0 100px;
+    color: white !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.slug-ai-seo-agency .ai-hero::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+    opacity: 0.1;
+}
+
+.slug-ai-seo-agency .ai-hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.slug-ai-seo-agency .ai-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    background: rgba(191, 10, 48, 0.1);
+    border: 1px solid rgba(191, 10, 48, 0.2);
+    color: #ff3e5e;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.slug-ai-seo-agency .ai-hero-title {
+    font-size: 3.8rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    background: linear-gradient(to right, #ffffff, #cbd5e1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.slug-ai-seo-agency .ai-hero-sub {
+    font-size: 1.25rem;
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+.slug-ai-seo-agency .ai-service-card {
+    background: white;
+    padding: 40px;
+    border-radius: 24px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.slug-ai-seo-agency .ai-service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    border-color: var(--ai-accent);
+}
+
+.slug-ai-seo-agency .ai-icon-box {
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 40, 104, 0.05);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    color: var(--ai-primary);
+    font-size: 1.5rem;
+}
+
+.slug-ai-seo-agency .audit-cta-section {
+    background: #0f172a !important;
+    color: white !important;
+    padding: 80px 0;
+    border-radius: 40px;
+    margin: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.slug-ai-seo-agency .ai-faq .accordion-item {
+    border: none;
+    margin-bottom: 12px;
+    background: transparent;
+}
+
+.slug-ai-seo-agency .ai-faq .accordion-button {
+    background: #f1f5f9;
+    border-radius: 16px !important;
+    padding: 24px;
+    font-weight: 600;
+    color: var(--ai-primary);
+}
+
+.slug-ai-seo-agency .ai-faq .accordion-button:not(.collapsed) {
+    background: var(--ai-primary) !important;
+    color: white !important;
+}
+
+/* 2. Fashion SEO Agency Styles */
+.slug-fashion-seo-agency {
+    --fashion-dark: #002868;
+    --fashion-primary: #BF0A30;
+    --fashion-gradient: linear-gradient(135deg, #002868 0%, #001a43 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+.slug-fashion-seo-agency .fashion-hero {
+    background: var(--fashion-gradient) !important;
+    color: white !important;
+    padding: 160px 0 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slug-fashion-seo-agency .fashion-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at top right, rgba(191, 10, 48, 0.2), transparent 60%);
+    z-index: 1;
+}
+
+.slug-fashion-seo-agency .hero-badge {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgba(191, 10, 48, 0.15);
+    border: 1px solid rgba(191, 10, 48, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.slug-fashion-seo-agency .service-card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    height: 100%;
+}
+
+.slug-fashion-seo-agency .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0, 40, 104, 0.1);
+}
+
+.slug-fashion-seo-agency .tech-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    height: 100%;
+}
+
+.slug-fashion-seo-agency .intent-card {
+    background: white;
+    padding: 40px;
+    border-left: 5px solid var(--fashion-primary);
+    border-radius: 0 15px 15px 0;
+    height: 100%;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.04);
+}
+
+.slug-fashion-seo-agency .timeline-item {
+    position: relative;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border-left: 2px solid #e2e8f0;
+}
+
+.slug-fashion-seo-agency .timeline-dot {
+    position: absolute;
+    left: -11px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: var(--fashion-primary);
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+/* 3. Makeup SEO Company Styles */
+.slug-makeup-seo-company {
+    --makeup-navy: #020617;
+    --makeup-red: #BF0A30;
+    font-family: 'Inter', sans-serif;
+}
+
+.slug-makeup-seo-company .makeup-hero {
+    background: radial-gradient(circle at top right, #1e1b4b 0%, #020617 60%, #000000 100%) !important;
+    color: white !important;
+    padding: 160px 0 100px;
+    position: relative;
+}
+
+.slug-makeup-seo-company .makeup-card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #e2e8f0;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.slug-makeup-seo-company .makeup-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--makeup-red);
+}
+
+.slug-makeup-seo-company .process-timeline {
+    border-left: 2px solid #002868;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+
+.slug-makeup-seo-company .process-step {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.slug-makeup-seo-company .process-step::before {
+    content: '';
+    position: absolute;
+    left: -39px;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background: var(--makeup-red);
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.slug-makeup-seo-company .pricing-card {
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid #e2e8f0;
+    height: 100%;
+}
+
+.slug-makeup-seo-company .bg-dark-makeup {
+    background: var(--makeup-navy) !important;
+    color: white !important;
+}
+
+/* 4. SEO Content Creation Styles */
+.slug-seo-content-creation {
+    font-family: 'Poppins', sans-serif;
+}
+
+.slug-seo-content-creation .seo-hero {
+    background-color: #002868 !important;
+    background-image:
+        radial-gradient(at 0% 0%, hsla(217, 100%, 30%, 1) 0, transparent 50%),
+        radial-gradient(at 100% 100%, hsla(342, 92%, 36%, 1) 0, transparent 50%),
+        url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
+    padding: 180px 0 140px;
+    color: white !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.slug-seo-content-creation .seo-hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+    color: #ffffff !important;
+    line-height: 1.1;
+}
+
+.slug-seo-content-creation .hero-floating-card {
+    position: absolute;
+    background: white;
+    padding: 15px 25px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 3;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.slug-seo-content-creation .value-prop-section {
+    background-color: #fff !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.slug-seo-content-creation .value-prop-section::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+    height: 100%;
+    background: #f8f9fa;
+    z-index: 0;
+    clip-path: polygon(15% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.slug-seo-content-creation .process-section-premium {
+    background-color: #002868 !important;
+    padding: 100px 0;
+    color: white !important;
+}
+
+.slug-seo-content-creation .process-card-dark {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 4px solid rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.slug-seo-content-creation .industry-section {
+    background-color: #0b1120 !important;
+    color: white !important;
+    padding: 100px 0;
+}
+
+.slug-seo-content-creation .industry-card-modern {
+    background: #1e293b !important;
+    border: 1px solid #334155;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.slug-seo-content-creation .cta-box-premium {
+    background: white !important;
+    border-radius: 24px;
+    padding: 80px 60px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08);
+}

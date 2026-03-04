@@ -13,6 +13,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Enqueue scripts and styles.
  */
 function seospecialist_scripts() {
+	// Google Fonts
+	wp_enqueue_style( 'seospecialist-fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap', array(), null );
+
 	// Bootstrap 5.3 CSS - Only CSS as requested
 	wp_enqueue_style( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css', array(), '5.3.2' );
 
@@ -34,8 +37,8 @@ function seospecialist_scripts() {
 	// Theme responsive stylesheet
 	wp_enqueue_style( 'seospecialist-responsive', SEO_SPECIALIST_URI . '/assets/css/responsive.css', array( 'seospecialist-main' ), SEO_SPECIALIST_VERSION );
 
-	// Theme Blocks & Patterns stylesheet
-	wp_enqueue_style( 'seospecialist-blocks', SEO_SPECIALIST_URI . '/assets/css/blocks.css', array( 'seospecialist-main' ), SEO_SPECIALIST_VERSION );
+	// Theme Specialized Services stylesheet
+	wp_enqueue_style( 'seospecialist-services-specialized', SEO_SPECIALIST_URI . '/assets/css/services-specialized.css', array( 'seospecialist-main' ), SEO_SPECIALIST_VERSION );
 
 	// Theme main script
 	wp_enqueue_script( 'seospecialist-main', SEO_SPECIALIST_URI . '/assets/js/main.js', array(), SEO_SPECIALIST_VERSION, true );

@@ -54,6 +54,9 @@ require_once SEO_SPECIALIST_DIR . '/inc/form-handler.php';
 // Native Block Patterns
 require_once SEO_SPECIALIST_DIR . '/inc/block-patterns.php';
 
+// Architecture & Dynamic Templates
+require_once SEO_SPECIALIST_DIR . '/inc/architecture.php';
+
 /**
  * Show all posts on the blog page (Home) and remove pagination limit.
  */

@@ -21,7 +21,7 @@
                         <li><a href="<?php echo esc_url(home_url('/off-page/')); ?>"><i class="far fa-dot-circle me-2"></i>OFF Page SEO</a></li>
                         <li><a href="<?php echo esc_url(home_url('/technical-seo/')); ?>"><i class="far fa-dot-circle me-2"></i>Technical SEO</a></li>
                         <li><a href="<?php echo esc_url(home_url('/dental-seo/')); ?>"><i class="far fa-dot-circle me-2"></i>Dental SEO</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/e-commerce/')); ?>"><i class="far fa-dot-circle me-2"></i>E-Commerce SEO</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/ecommerce/')); ?>"><i class="far fa-dot-circle me-2"></i>E-Commerce SEO</a></li>
                         <li><a href="<?php echo esc_url(home_url('/lawyer-seo/')); ?>"><i class="far fa-dot-circle me-2"></i>Lawyer SEO</a></li>
                         <li><a href="<?php echo esc_url(home_url('/local-seo/')); ?>"><i class="far fa-dot-circle me-2"></i>Local SEO</a></li>
                         <li><a href="<?php echo esc_url(home_url('/seo-content-creation/')); ?>"><i class="far fa-dot-circle me-2"></i>SEO Content Creation</a></li>
